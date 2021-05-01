@@ -6,22 +6,7 @@
                 <img src="/11.png" />
             </v-toolbar-title>
             <v-spacer></v-spacer>
-                    <v-btn text v-on="on">
-                        <span>Courses</span>
-                        <v-icon right>expand_more</v-icon>
-                    </v-btn>
-                    <v-btn text v-on="on">
-                        <span>Branches</span>
-                        <v-icon right>expand_more</v-icon>
-                    </v-btn>
-                    <v-btn text v-on="on">
-                        <span>Resources</span>
-                        <v-icon right>expand_more</v-icon>
-                    </v-btn>
-                    <v-btn text v-on="on">
-                        <span>About</span>
-                        <v-icon right>expand_more</v-icon>
-                    </v-btn>
+                    
             <v-menu offset-y>
                 <template v-slot:activator="{on}">
                     <v-btn text v-on="on">
@@ -74,13 +59,7 @@ export default {
             {icon: 'dashboard', text:'Project_list', route:'/' },
             {icon: 'computer', text:'Project_detail', route:'/project_detail' },
             {icon: 'person', text:'Team', route:'/team' },
-            ],
-        Hello:[    
-            {text1:'Courses'},
-            {text1:'',},
-            {text1:''},
-            {text1:'' },
-        ]
+            ]
     }),
     components :{
       Popup

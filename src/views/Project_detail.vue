@@ -5,8 +5,8 @@
         <v-flex xl12>
           <v-card class="text-xenter ma-3">
             <v-list-item>
-            <v-flex xs12 sm12 md12 lg2>
-              <v-card class="text-center ma-3">
+            <v-flex xs12 sm12 md12 lg3>
+              <v-card class="text-center ma-0">
                 <v-layout column align-center>
                   <v-responsive class="pt-4">
                     <div class="app">
